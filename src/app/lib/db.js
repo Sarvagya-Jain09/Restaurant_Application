@@ -1,0 +1,1 @@
+export const connectionURL = "mongodb+srv://sarvagyajain00:BitExpress2024@cluster0.vtpoigx.mongodb.net/BitExpressDB?retryWrites=true&w=majority&appName=Cluster0"

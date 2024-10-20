@@ -1,0 +1,301 @@
+*:focus{
+  outline: none;
+}
+
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: mediumaquamarine; */
+}
+.header-wrapper ul{
+  display: flex;
+}
+.header-wrapper ul li{
+  padding-left: 10px;
+  list-style: none;
+}
+.header-wrapper ul li a{
+  text-decoration: none;
+}
+.header-wrapper ul li button{
+  border:0;
+  background-color: transparent;
+  font-size: 16px;
+  color: blue;
+  cursor: pointer;
+}
+.footer-wrapper{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  background-color: red;
+  color: white;
+}
+
+.input-wrapper{
+  margin: 10px;
+}
+
+.button{
+  width: 200px;
+  height : 30px;
+  border: none;
+  color: red;
+}
+.button:hover{
+  width: 200px;
+  height : 30px;
+  border: none;
+  color: white;
+  background-color: red;
+  opacity: 80%;
+  border-radius: 10px;
+}
+
+.input-field{
+  width: 200px;
+  height : 30px;
+  border-radius: 5px;
+}
+.container{
+  text-align: center;
+}
+.button-link{
+  margin: 10px;
+  border : 0;
+  cursor: pointer;
+  background-color: transparent;
+  color: skyblue;
+  margin-bottom: 50px;
+}
+.Input-error{
+  color: red;
+  position: absolute;
+  padding: 8px;
+  font-size: 13px;
+}
+table , th, td
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+table tr td button{
+  border: none;
+  color: red;
+  margin-right: 5px;
+}
+table tr td button:hover{
+  border: none;
+  color: white;
+  background-color: red;
+  opacity: 80%;
+  border-radius: 10px;
+  margin-right: 5px;
+
+}
+table img{
+  max-width:100px;
+  /* height:px;80px; */
+}
+
+.main-page-banner,.restaurant-page-banner{
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/495/760/53/cuisine-food-india-indian-wallpaper-preview.jpg");
+  /* image-rendering: crisp-edges; */
+  background-color:rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  padding: 30px;
+  height: 230px;
+  color: white;
+  text-align: left;
+}
+.input-wrap{
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin:auto;
+  width: 60%;
+}
+.select-input{
+  border: none;
+  height: 40px;
+  width: 25%;
+  padding-left: 15px;
+
+}
+.search-input{
+  border: none;
+  height: 40px;
+  width: 55%;
+  border-left: 1px solid #ccc;
+  padding-left: 15px;
+}
+
+.location-list{
+  padding: 0;
+  color: black;
+  list-style-type: none;
+  font-size: 16px;
+  text-align: left;
+  position: absolute;
+  background-color: white;
+  margin-left: -5px;
+  width: 20%;
+  margin-top: 6px;
+  border: 1px solid;
+  border-bottom: 0;
+  cursor: pointer;
+}
+.location-list li{
+  padding: 2px;
+  border-bottom: 1px solid black;
+}
+.restaurant-list-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.restaurant-wrapper{
+  margin: 0 20px 20px 20px;
+  background-color: orange;
+  width: 45%;
+  padding: 0 10px 20px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.restaurant-wrapper .name-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.restaurant-page-banner h1{
+  font-size: 62px;
+}
+
+.details-wrapper{
+  display: flex;  
+  justify-content: space-evenly;
+  background-color: orange;
+}
+
+.details-wrapper h4{
+  width: 50;
+}
+
+.food-item-wrapper .list-item{
+  /* background-color: orange; */
+  color: orange;
+  font-weight: bold;
+  border-bottom : 1px solid orange;
+  padding: 10px;
+  display: flex;
+  text-transform: capitalize;
+}
+
+.food-item-wrapper .list-item button{
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.food-item-wrapper .list-item img{
+  padding-right: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.food-item-wrapper .list-item .description{
+  font-weight: 300;
+}
+.list-item-block-1{
+  width: 20%;
+}
+.list-item-block-2{
+  width: 80%;
+}
+.list-item-block-3{
+  width: 20%;
+}
+.total-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.total-wrapper .row{
+  color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between; 
+}
+.total-wrapper .break{
+  padding-bottom: 5px;
+  border-bottom: 2px dashed orange;
+}
+.total-wrapper button{
+  border: none;
+  color: #fff;
+  background-color: orange;
+  border-radius: 4px;
+  width: 60%;
+  height: 35px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left:120px ;
+  cursor: pointer;
+}
+.total-wrapper button:hover{
+  border: none;
+  color: #fff;
+  background-color: orangered;
+  border-radius: 4px;
+  width: 60%;
+  height: 35px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left:120px ;
+  cursor: pointer;
+}
+
+.auth-container{
+  display: flex;
+  justify-content: column;
+}
+
+.login-wrapper{
+  width: 50%;
+  height: 400px;
+  text-align: center;
+  border-right: 2px solid #CFCFCF;
+  background-color: #fff;
+}
+.signup-wrapper{
+  width: 50%;
+  height: 400px;
+  text-align: center;
+  background-color: #fff;
+
+}
+
+.login-wrapper h2 {
+  margin-bottom : 40px;
+}
+.signup-wrapper h2 {
+  margin-bottom : 40px;
+}
